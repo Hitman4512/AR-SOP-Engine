@@ -1,0 +1,35 @@
+{
+  "sopId": "maintenance-001",
+  "title": "Demo Story SOP - AR Inspection",
+  "version": "2.0",
+  "steps": [
+    {
+      "id": "step-001",
+      "stepNumber": 1,
+      "title": "The Eyes: Locate Emergency Shut-Off",
+      "instruction": "Locate the emergency shut-off. Tap the table to place the AR arrow on the shut-off location, then say Next.",
+      "annotations": [
+        {
+          "type": "arrow",
+          "label": "Emergency Shut-Off"
+        }
+      ],
+      "commands": ["next", "back", "repeat"]
+    },
+    {
+      "id": "step-002",
+      "stepNumber": 2,
+      "title": "The Hands: Highlight Leaks or Damage",
+      "instruction": "Highlight any leaks or damage. Use your finger to circle the area on screen. Then say Clear to wipe the marks, and say Next.",
+      "tags": ["draw"],
+      "commands": ["next", "back", "repeat", "clear"]
+    },
+    {
+      "id": "step-003",
+      "stepNumber": 3,
+      "title": "The Brain: Confirm Inspection Complete",
+      "instruction": "Confirm inspection complete. Say Next or Done to finish and generate the summary report.",
+      "commands": ["done", "next", "back", "repeat"]
+    }
+  ]
+}
