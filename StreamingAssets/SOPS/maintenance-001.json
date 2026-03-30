@@ -1,0 +1,49 @@
+{
+  "sopId": "maintenance-001",
+  "title": "AR Equipment Check - Demo SOP",
+  "version": "1.1",
+  "steps": [
+    {
+      "id": "step-001",
+      "stepNumber": 1,
+      "title": "Locate Power Switch",
+      "instruction": "Locate the power switch. Tap the table to place the AR arrow on the switch area, then say Next.",
+      "annotations": [
+        {
+          "type": "arrow",
+          "label": "Power Switch"
+        }
+      ],
+      "commands": ["next", "back", "repeat"]
+    },
+    {
+      "id": "step-002",
+      "stepNumber": 2,
+      "title": "Inspect and Mark",
+      "instruction": "Inspect the connectors. Use your finger to draw a circle around any signs of corrosion on screen, then say Next.",
+      "tags": ["draw"],
+      "commands": ["next", "back", "repeat"]
+    },
+    {
+      "id": "step-003",
+      "stepNumber": 3,
+      "title": "Check Indicator Light",
+      "instruction": "Confirm the indicator light is solid green. If it is flashing or red, mark it and report it. Then say Next.",
+      "commands": ["next", "back", "repeat"]
+    },
+    {
+      "id": "step-004",
+      "stepNumber": 4,
+      "title": "Listen for Abnormal Noise",
+      "instruction": "Listen for any abnormal buzzing or grinding. If you hear anything unusual, note it. Then say Next.",
+      "commands": ["next", "back", "repeat"]
+    },
+    {
+      "id": "step-005",
+      "stepNumber": 5,
+      "title": "Verify",
+      "instruction": "Verification complete. Say Done to log this inspection and finish the SOP.",
+      "commands": ["done", "back", "repeat", "next"]
+    }
+  ]
+}
